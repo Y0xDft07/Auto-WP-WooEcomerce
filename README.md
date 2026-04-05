@@ -166,4 +166,4 @@ Jangan jalankan ulang pada domain yang sama – script akan mencoba membuat ulan
 ---
 
 ## 📜 Lisensi
-[License]()
+[License](https://github.com/Y0xDft07/Auto-WP-WooEcomerce/blob/main/LICENSE)
