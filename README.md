@@ -30,11 +30,11 @@ Semua komponen telah dikonfigurasi agar **bekerja tanpa sentuhan manual** – to
 1. **Salin script** ke server Anda (misal: `install.sh`)
 2. **Buat dapat dieksekusi**  
    ```bash
-   chmod +x install.sh
+   chmod +x wp-wooecomerce.sh
    ```
 3. **Jalankan sebagai root**  
    ```bash
-   sudo ./install.sh
+   sudo ./wp-wooecomerce.sh
    ```
 4. **Jawab beberapa pertanyaan** (domain, email, versi PHP, kredensial admin)
 5. **Tunggu 5–10 menit** – semuanya otomatis
@@ -166,25 +166,4 @@ Jangan jalankan ulang pada domain yang sama – script akan mencoba membuat ulan
 ---
 
 ## 📜 Lisensi
-
-Script ini gratis digunakan dan dimodifikasi untuk proyek pribadi atau komersial. Tanpa jaminan – gunakan dengan risiko Anda sendiri.
-
----
-
-## 👨‍💻 Penulis
-
-Proyek Final – Deployment WordPress + WooCommerce otomatis penuh.
-
----
-
-## ✅ Ringkasan Apa yang Anda Dapatkan
-
-| Aspek | Status |
-|-------|--------|
-| ✅ Website dapat diakses via HTTPS | Ya |
-| ✅ Toko WooCommerce dengan IDR & metode pembayaran | Ya |
-| ✅ Backup otomatis harian | Ya (lokal) |
-| ✅ SMTP siap pakai | Ya (fallback) |
-| ✅ Keamanan (firewall, fail2ban, Wordfence) | Ya |
-| ✅ Hardening PHP & Nginx | Ya |
-| ✅ Kredensial tersimpan | Ya (`/root/domain-conf.txt`) |
+[License]()
